@@ -1,0 +1,152 @@
+html,
+body {
+    min-width: 290px;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'Chelsea Market', sans-serif;
+    line-height: 1.5;
+    text-shadow: 4px 4px 9px rgb(253, 0, 0);
+}
+
+body:before {
+    background-image: url(https://wallpapercave.com/wp/wp2264639.png);
+    background-position: right;
+    opacity: 0.4;
+    content: "";
+    width: 2200px;
+    height: 3500px;
+    position: fixed;
+    background-position: center;
+    top: 0;
+}
+
+nav {
+    background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/113200/a0146a171ebff3e1264f9c69d0d756930a69c1a9.jpg);
+    width: 100%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    background-size: 1200px 100%;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0pc;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+#navbar header {
+    color: white;
+}
+
+header {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+code {
+    text-align: center;
+    display: block;
+}
+
+footer {
+    color: red;
+    display: block;
+    text-align: end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a:hover {
+    background-image: url(https://i.pinimg.com/originals/5e/0a/04/5e0a04f5cfad95851622b19c636f0b00.png);
+    background-position: left;
+    width: 80%;
+    height: 80%;
+    background-size: 100%;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#main-doc header {
+    text-align: center;
+    margin: 0px;
+}
+
+ol {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+}
+
+#icon {
+    height: 28px;
+    width: 28px;
+}
+
+section article {
+    margin: 15px;
+    font-size: 1.3em;
+    text-align: justify;
+    width: 95%;
+}
+
+section li {
+    margin: 15px 0px 0px 20px;
+}
+
+#credits article {
+    text-align: center;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-radtio: 2) {}
